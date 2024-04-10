@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .question h1 {
+    color: white;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #noButton {
+    position: relative;
+  }
+  
+  #noButton.clicked {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
